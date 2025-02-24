@@ -16,7 +16,7 @@ const Home = () => {
     }
     useEffect(()=>{
         fetchData()
-    },[])
+    },[data])
 
 
   return (
